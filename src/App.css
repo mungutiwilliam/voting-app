@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+img{
+  width: 100px;
+  height: 400px;
+}
+
+.card{
+
+  background-color: gray;
+}

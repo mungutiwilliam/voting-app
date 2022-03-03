@@ -1,19 +1,19 @@
 import React from "react";
-import ps4 from '../assets/ps4.jpg'
+import './card-style.css';
 
 const Card = (props) =>{
 
     return(
         <div className="card text-center">
             <div className="overflow">
-                <img className="card-img-top" src={ps4} alt="image 1"/>
+                <img className="card-img-top" src={props.imgsrc} alt="image 1"/>
             </div>
             <div className="card-body text-dark">
-                <h4 className="card-title">Card Title</h4>
-                <p className="card-text text-secondary">
-                    This will contain content to talk about the image on the card
+                <h4 className="card-title">{props.title}</h4>
+                <p className="card-text text-danger">
+                    Please Select One Candidate
                 </p>
-                <a href="#" className="btn btn-outline-secondary">Submit vote</a>
+                <a href="#" className="btn btn-success">Submit vote</a>
             </div>
         </div>
 
