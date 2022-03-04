@@ -46,3 +46,7 @@ img{
 
   background-color: gray;
 }
+
+.list_names{
+  align-items: center;
+}

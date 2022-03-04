@@ -15,22 +15,22 @@ class card  extends Component {
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <Card imgsrc={ps1} title="President"/> 
+                        <Card name1="William" name2="Jack" name3="Loulou" title="President"/> 
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={ps2} title="Vice President"/>
+                        <Card name1="Jane" name2="Martha" name3="Maria" title="Vice President"/>
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={ps3} title="Secretary General"/>
+                        <Card name1="Brenda" name2="Caesar" name3="Peter" title="Secretary General"/>
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={ps4} title="Deputy Secretary General"/> 
+                        <Card name1="Noah" name2="Oliver" name3="Elijah" title="Deputy Secretary General"/> 
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={ps5} title=" Council Treasurer"/> 
+                        <Card name1="Emma" name2="Moses" name3="Charlotte" title=" Council Treasurer"/> 
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={ps6} title=" Council Spokesperson"/> 
+                        <Card name1="Alexa" name2="Finn" name3="Ava" title="Council Spokesperson"/> 
                     </div>
                 </div>
             </div> 
