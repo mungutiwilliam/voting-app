@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
 }
 
 .App-logo {
@@ -44,7 +46,7 @@ img{
 
 .card{
 
-  background-color: gray;
+  background-color: #581845;
 }
 
 .list_names{
@@ -53,4 +55,10 @@ img{
 
 .col-md-4{
   margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#main{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
