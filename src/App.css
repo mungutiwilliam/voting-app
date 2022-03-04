@@ -17,7 +17,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,8 +45,7 @@ img{
 }
 
 .card{
-
-  background-color: #581845;
+  padding-top: 15px;
 }
 
 .list_names{
@@ -61,4 +60,10 @@ img{
 #main{
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.footer{
+  background-color: #282c34;
+  color: white;
+  height: 400px;
 }

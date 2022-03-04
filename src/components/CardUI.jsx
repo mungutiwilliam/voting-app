@@ -4,6 +4,8 @@ import './card-style.css';
 const handlechange = event =>{
     const target = event.target
     const name = target.name
+    const value = target.value
+    alert(`${name} ${value}`)
 }
 
 
@@ -27,10 +29,7 @@ const Card = (props) =>{
                 <p className="card-text text-danger">
                     Please Select One Candidate
                 </p>
-                <button className="btn btn-success">Submit vote</button>
-
-            <div className="overflow">
-                
+                <button className="btn btn-success">Submit vote</button>      
             </div>
             <div className="card-body text-white">
                 <h4 className="card-title">Pick who to vote for</h4>
@@ -38,7 +37,6 @@ const Card = (props) =>{
                 </p>
             </div>
         </div>
-</div>
     );
 }
 

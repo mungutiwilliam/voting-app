@@ -5,10 +5,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App/>
     <Card/>
+    <Footer/>
+  
+
   </React.StrictMode>,
   document.getElementById('root')
 );
