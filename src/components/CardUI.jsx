@@ -18,13 +18,12 @@ const Card = (props) =>{
         <div className="card text-center">
            <center>
                 <div className="list_names">   
-                                <input type="radio" id="candidate" name="Chairperson" value = {props.name1}></input>
+                                <input type="radio" id="candidate" name="Chairperson" value ={props.name1}></input>
                                 <label for="jane_doe">{props.name1}</label><br></br>
                                 <input type="radio" id="candidate" name="Chairperson" value={props.name2}></input>
                                 <label for="john_doe">{props.name2}</label><br></br>
                                 <input type="radio" id="candidate" name="Chairperson" value={props.name3}></input>
-                                <label for="stephen">{props.name3}</label><br></br>
-                                
+                                <label for="stephen">{props.name3}</label><br></br>              
                 </div>
             </center>
             <div className="card-body text-dark">
@@ -32,11 +31,19 @@ const Card = (props) =>{
                 <p className="card-text text-danger">
                     Please Select One Candidate
                 </p>
-                <button className="btn btn-success" onClick={countvotes()}>Submit vote</button>
+                <button className="btn btn-success">Submit vote</button>
+
+            <div className="overflow">
+                
+            </div>
+            <div className="card-body text-dark">
+                <h4 className="card-title">Pick who you want to vote for.</h4>
+                <p className="card-text text-secondary">
+                </p>
             </div>
         </div>
-
+</div>
     );
 }
 
-export default Card
+export default Card;

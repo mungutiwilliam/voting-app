@@ -50,3 +50,7 @@ img{
 .list_names{
   align-items: center;
 }
+
+.col-md-4{
+  margin-top: 5px;
+}
