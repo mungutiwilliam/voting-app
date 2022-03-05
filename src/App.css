@@ -65,5 +65,17 @@ img{
 .footer{
   background-color: #282c34;
   color: white;
-  height: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.footer.footer-bottom{
+  background-color: cornflowerblue;
+  color: #282c34;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
 }
