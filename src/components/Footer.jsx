@@ -9,7 +9,7 @@ const Footer= ()=>{
                 <div className="footer-section contact-form"></div>
             </div>
             <div className="text-lg footer-bottom">
-                &copy; Designed by William & Caesar 
+                &copy; Designed by William and Caesar 
             </div>
         
         </div>
